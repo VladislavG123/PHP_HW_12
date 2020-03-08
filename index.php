@@ -2,6 +2,6 @@
 include_once 'vendor/autoload.php';
 
 use Step\Tag;
-$input = Tag::input();
-$input->setAttribute('class', 'row');
+$input = Tag::a();
+$input->setAttribute('href', 'https://google.com');
 echo $input;
